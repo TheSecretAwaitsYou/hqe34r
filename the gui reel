@@ -1,0 +1,359 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local retardedgui = Instance.new("ScreenGui")
+local gamefucker = Instance.new("Frame")
+local _666 = Instance.new("TextButton")
+local HQE34RMessage = Instance.new("TextButton")
+local HQE34RMusic = Instance.new("TextButton")
+local Skybox = Instance.new("TextButton")
+local DecalSpam = Instance.new("TextButton")
+local Disco = Instance.new("TextButton")
+local Creds = Instance.new("TextLabel")
+
+--Properties:
+
+retardedgui.Name = "retardedgui"
+retardedgui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+retardedgui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+gamefucker.Name = "gamefucker"
+gamefucker.Parent = retardedgui
+gamefucker.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
+gamefucker.BorderColor3 = Color3.fromRGB(0, 0, 127)
+gamefucker.BorderSizePixel = 0
+gamefucker.Position = UDim2.new(0.0395408161, 0, 0.382302403, 0)
+gamefucker.Size = UDim2.new(0, 497, 0, 320)
+
+_666.Name = "666"
+_666.Parent = gamefucker
+_666.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
+_666.BorderColor3 = Color3.fromRGB(0, 0, 127)
+_666.BorderSizePixel = 0
+_666.Position = UDim2.new(0.0690192208, 0, 0.086718753, 0)
+_666.Size = UDim2.new(0, 64, 0, 50)
+_666.Font = Enum.Font.SourceSansBold
+_666.Text = "666"
+_666.TextColor3 = Color3.fromRGB(2, 255, 234)
+_666.TextScaled = true
+_666.TextSize = 14.000
+_666.TextWrapped = true
+
+HQE34RMessage.Name = "HQE34R Message"
+HQE34RMessage.Parent = gamefucker
+HQE34RMessage.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
+HQE34RMessage.BorderColor3 = Color3.fromRGB(0, 0, 127)
+HQE34RMessage.BorderSizePixel = 0
+HQE34RMessage.Position = UDim2.new(0.434607655, 0, 0.0843750015, 0)
+HQE34RMessage.Size = UDim2.new(0, 64, 0, 50)
+HQE34RMessage.Font = Enum.Font.SourceSansBold
+HQE34RMessage.Text = "HQE34R Message"
+HQE34RMessage.TextColor3 = Color3.fromRGB(0, 255, 225)
+HQE34RMessage.TextScaled = true
+HQE34RMessage.TextSize = 14.000
+HQE34RMessage.TextWrapped = true
+
+HQE34RMusic.Name = "HQE34R Music"
+HQE34RMusic.Parent = gamefucker
+HQE34RMusic.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
+HQE34RMusic.BorderColor3 = Color3.fromRGB(0, 0, 127)
+HQE34RMusic.BorderSizePixel = 0
+HQE34RMusic.Position = UDim2.new(0.802816927, 0, 0.0843750015, 0)
+HQE34RMusic.Size = UDim2.new(0, 64, 0, 50)
+HQE34RMusic.Font = Enum.Font.SourceSansBold
+HQE34RMusic.Text = "HQE34R Music"
+HQE34RMusic.TextColor3 = Color3.fromRGB(0, 255, 225)
+HQE34RMusic.TextScaled = true
+HQE34RMusic.TextSize = 14.000
+HQE34RMusic.TextWrapped = true
+
+Skybox.Name = "Skybox"
+Skybox.Parent = gamefucker
+Skybox.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
+Skybox.BorderColor3 = Color3.fromRGB(0, 0, 127)
+Skybox.BorderSizePixel = 0
+Skybox.Position = UDim2.new(0.0690192208, 0, 0.736718774, 0)
+Skybox.Size = UDim2.new(0, 64, 0, 50)
+Skybox.Font = Enum.Font.SourceSansBold
+Skybox.Text = "Skybox"
+Skybox.TextColor3 = Color3.fromRGB(2, 255, 234)
+Skybox.TextScaled = true
+Skybox.TextSize = 14.000
+Skybox.TextWrapped = true
+
+DecalSpam.Name = "Decal Spam"
+DecalSpam.Parent = gamefucker
+DecalSpam.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
+DecalSpam.BorderColor3 = Color3.fromRGB(0, 0, 127)
+DecalSpam.BorderSizePixel = 0
+DecalSpam.Position = UDim2.new(0.435216397, 0, 0.736718774, 0)
+DecalSpam.Size = UDim2.new(0, 64, 0, 50)
+DecalSpam.Font = Enum.Font.SourceSansBold
+DecalSpam.Text = "Decal Spam"
+DecalSpam.TextColor3 = Color3.fromRGB(2, 255, 234)
+DecalSpam.TextScaled = true
+DecalSpam.TextSize = 14.000
+DecalSpam.TextWrapped = true
+
+Disco.Name = "Disco"
+Disco.Parent = gamefucker
+Disco.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
+Disco.BorderColor3 = Color3.fromRGB(0, 0, 127)
+Disco.BorderSizePixel = 0
+Disco.Position = UDim2.new(0.802816927, 0, 0.734375, 0)
+Disco.Size = UDim2.new(0, 64, 0, 50)
+Disco.Font = Enum.Font.SourceSansBold
+Disco.Text = "Disco"
+Disco.TextColor3 = Color3.fromRGB(0, 255, 225)
+Disco.TextScaled = true
+Disco.TextSize = 14.000
+Disco.TextWrapped = true
+
+Creds.Name = "Creds"
+Creds.Parent = gamefucker
+Creds.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
+Creds.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Creds.BorderSizePixel = 0
+Creds.Position = UDim2.new(3.07017878e-08, 0, 0.892968774, 0)
+Creds.Size = UDim2.new(0, 496, 0, 34)
+Creds.Font = Enum.Font.SourceSansBold
+Creds.Text = "MADE BY @HQE34R ON DISCORD"
+Creds.TextColor3 = Color3.fromRGB(0, 255, 255)
+Creds.TextScaled = true
+Creds.TextSize = 14.000
+Creds.TextWrapped = true
+
+-- Scripts:
+
+local function EDEK_fake_script() -- _666.LocalScript 
+	local script = Instance.new('LocalScript', _666)
+
+	local Player = game.Players.LocalPlayer
+	local Character = Player.Character or Player.CharacterAdded:Wait()
+	local Button = script.Parent -- Reference to the TextButton
+	
+	-- Function to change appearance
+	local function changeAppearance()
+		-- Change all parts in Workspace
+		for _, part in pairs(workspace:GetChildren()) do
+			if part:IsA("BasePart") then
+				part.BrickColor = BrickColor.new("Black") -- Change part color to black
+				part.Material = Enum.Material.SmoothPlastic -- Ensure it's smooth
+				part.Transparency = 0 -- Make sure it's fully opaque
+	
+				-- Create a red outline effect using a SurfaceGui
+				local outline = Instance.new("SurfaceGui", part)
+				outline.Face = Enum.NormalId.Front
+				outline.Adornee = part
+	
+				local outlineFrame = Instance.new("Frame", outline)
+				outlineFrame.Size = UDim2.new(1, 0, 1, 0)
+				outlineFrame.BackgroundColor3 = Color3.new(1, 0, 0) -- Red color
+				outlineFrame.BackgroundTransparency = 0.5 -- Slightly transparent for outline effect
+				outlineFrame.BorderSizePixel = 0
+			end
+		end
+	
+		-- Create and position the fire effect
+		local fire = Instance.new("Fire")
+		fire.Size = 100
+		fire.Heat = 5
+		fire.Color = Color3.fromRGB(255, 0, 0) -- Fire color
+	
+		-- Attach the fire to the HumanoidRootPart
+		if Character:FindFirstChild("HumanoidRootPart") then
+			fire.Parent = Character.HumanoidRootPart
+		end
+	end
+	
+	-- Connect the button click to the changeAppearance function
+	Button.MouseButton1Click:Connect(function()
+		changeAppearance() -- Call the function directly
+	end)
+	
+end
+coroutine.wrap(EDEK_fake_script)()
+local function UYNSDNO_fake_script() -- HQE34RMessage.LocalScript 
+	local script = Instance.new('LocalScript', HQE34RMessage)
+
+	local Button = script.Parent -- Reference to the button
+	local messages = {
+		"It is i HQE34R",
+		"I have came to destory the game",
+		"have fun while it lasts",
+		"game will be killed in a second",
+		"let me change this up here and... Im In.",
+		"GAME HACKED BY HQE34R XD"
+	}
+	
+	local currentIndex = 1
+	
+	-- Function to create and display messages
+	local function displayMessages()
+		while true do
+			-- Create a new Message instance
+			local message = Instance.new("Message")
+			message.Text = messages[currentIndex] -- Set the message text
+			message.Parent = game.Workspace -- Parent the message to the Workspace
+	
+			-- Wait for a few seconds before removing it
+			wait(3) -- Adjust the time the message is displayed
+			message:Destroy() -- Remove the message from the Workspace
+	
+			-- Update the index for the next message
+			currentIndex = currentIndex + 1
+	
+			-- Check if it's the last message
+			if currentIndex > #messages then
+				-- Create and display the hint with the last message
+				local hint = Instance.new("Hint")
+				hint.Text = messages[#messages] -- Use the last message as the hint
+				hint.Parent = game.Workspace
+	
+				-- Wait for the hint to display for a few seconds
+				wait(3) -- Adjust the time the hint is displayed
+				hint:Destroy() -- Remove the hint from the Workspace
+	
+				break -- Exit the loop after showing the hint
+			end
+	
+			wait(1) -- Optional: wait a moment before showing the next message
+		end
+	end
+	
+	-- Connect the button click to start displaying messages
+	Button.MouseButton1Click:Connect(displayMessages)
+end
+coroutine.wrap(UYNSDNO_fake_script)()
+local function YWYAC_fake_script() -- HQE34RMusic.LocalScript 
+	local script = Instance.new('LocalScript', HQE34RMusic)
+
+	local button = script.Parent -- Assuming this LocalScript is inside the button
+	local soundId = "rbxassetid://1839246711" -- The sound ID
+	local distortionLevel = 0.8 -- Distortion level
+	local volumeLevel = 10 -- Volume level
+	
+	button.MouseButton1Click:Connect(function()
+		-- Create the sound in Workspace
+		local sound = Instance.new("Sound")
+		sound.SoundId = soundId
+		sound.Volume = volumeLevel
+		sound.Looped = true
+		sound.Parent = workspace
+	
+		-- Add distortion effect
+		local distortion = Instance.new("DistortionSoundEffect")
+		distortion.Level = distortionLevel
+		distortion.Parent = sound
+	
+		-- Play the sound
+		sound:Play()
+	end)
+	
+end
+coroutine.wrap(YWYAC_fake_script)()
+local function NLSQUM_fake_script() -- Skybox.LocalScript 
+	local script = Instance.new('LocalScript', Skybox)
+
+	local button = script.Parent -- Assuming the script is inside the button
+	local skyboxImageId = "rbxassetid://85259745249903"
+	
+	button.MouseButton1Click:Connect(function()
+		-- Check if there's already a skybox in Lighting, if not, create one
+		local skybox = game.Lighting:FindFirstChildOfClass("Sky") or Instance.new("Sky", game.Lighting)
+	
+		-- Set all skybox faces to the specified image ID
+		skybox.SkyboxBk = skyboxImageId
+		skybox.SkyboxDn = skyboxImageId
+		skybox.SkyboxFt = skyboxImageId
+		skybox.SkyboxLf = skyboxImageId
+		skybox.SkyboxRt = skyboxImageId
+		skybox.SkyboxUp = skyboxImageId
+	end)
+	
+end
+coroutine.wrap(NLSQUM_fake_script)()
+local function JNKWUJE_fake_script() -- DecalSpam.LocalScript 
+	local script = Instance.new('LocalScript', DecalSpam)
+
+	local button = script.Parent -- Assuming the LocalScript is inside the button
+	local decalImageId = "rbxassetid://126562565790021"
+	
+	local function addDecalsToPart(part)
+		-- Create decals for each face
+		local faces = {"Front", "Back", "Left", "Right", "Top", "Bottom"}
+	
+		for _, face in ipairs(faces) do
+			local decal = Instance.new("Decal")
+			decal.Face = Enum.NormalId[face]
+			decal.Texture = decalImageId
+			decal.Parent = part
+		end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		for _, part in ipairs(workspace:GetDescendants()) do
+			-- Check if the object is a part
+			if part:IsA("BasePart") then
+				addDecalsToPart(part)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(JNKWUJE_fake_script)()
+local function JNXSB_fake_script() -- Disco.LocalScript 
+	local script = Instance.new('LocalScript', Disco)
+
+	local button = script.Parent -- Assuming the LocalScript is inside the button
+	local isDisco = false
+	local discoSpeed = 0.1 -- Speed of color change (lower = faster)
+	
+	local colors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 165, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(238, 130, 238) -- Violet
+	}
+	
+	-- Create a GUI overlay to apply a rainbow effect on the player's screen
+	local overlay = Instance.new("Frame")
+	overlay.Size = UDim2.new(1, 0, 1, 0)
+	overlay.BackgroundTransparency = 0.5 -- Semi-transparent
+	overlay.Parent = button.Parent -- Parent it to the same ScreenGui as the button
+	
+	local function toggleDiscoMode()
+		isDisco = not isDisco
+		overlay.Visible = isDisco
+	
+		while isDisco do
+			for _, color in ipairs(colors) do
+				if not isDisco then return end
+	
+				-- Apply color to Lighting
+				game.Lighting.Ambient = color
+				game.Lighting.OutdoorAmbient = color
+	
+				-- Apply color to screen overlay
+				overlay.BackgroundColor3 = color
+	
+				wait(discoSpeed)
+			end
+		end
+	
+		-- Reset Lighting and overlay color when disco mode is off
+		game.Lighting.Ambient = Color3.new(1, 1, 1)
+		game.Lighting.OutdoorAmbient = Color3.new(1, 1, 1)
+		overlay.BackgroundColor3 = Color3.new(0, 0, 0)
+		overlay.Visible = false
+	end
+	
+	button.MouseButton1Click:Connect(toggleDiscoMode)
+	
+end
+coroutine.wrap(JNXSB_fake_script)()
